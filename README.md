@@ -11,8 +11,6 @@ Aplicación móvil desarrollada con **React Native y Expo** para llevar el contr
 
 ## 📱 Capturas de pantalla
 
-> _(Podés reemplazar estos enlaces cuando subas las capturas a una carpeta `assets/screenshots` en tu repo)_
-
 |          Pantalla Principal          |                 Mis Repetidas                  |                   Progreso                   |
 | :----------------------------------: | :--------------------------------------------: | :------------------------------------------: |
 | ![Home](assets/screenshots/home.png) | ![Repetidas](assets/screenshots/repetidas.png) | ![Progreso](assets/screenshots/progreso.png) |
