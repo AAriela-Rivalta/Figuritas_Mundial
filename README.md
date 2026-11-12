@@ -1,8 +1,37 @@
-# Welcome to your Expo app 👋
+# Álbum Mundial 2026 - Sticker Tracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil desarrollada con **React Native y Expo** para llevar el control del álbum de figuritas del Mundial 2026. Permite gestionar de forma rápida qué figuritas ya están pegadas, cuáles faltan y llevar la cuenta de las repetidas para facilitar los intercambios.
 
-## Get started
+## ✨ Funcionalidades
+
+- **Control de progreso:** Visualización del porcentaje total completado del álbum y conteo por selección o sección.
+- **Gestión de estados:** Marcado rápido de figuritas (Obtenida / Faltante).
+- **Contador de repetidas:** Control de cantidad de duplicadas para tener a mano al momento de cambiar.
+- **Almacenamiento local:** Todos los datos y avances se guardan directamente en la memoria interna del dispositivo, permitiendo usar la app sin conexión a internet.
+
+## 📱 Capturas de pantalla
+
+> _(Podés reemplazar estos enlaces cuando subas las capturas a una carpeta `assets/screenshots` en tu repo)_
+
+|          Pantalla Principal          |                 Mis Repetidas                  |                   Progreso                   |
+| :----------------------------------: | :--------------------------------------------: | :------------------------------------------: |
+| ![Home](assets/screenshots/home.png) | ![Repetidas](assets/screenshots/repetidas.png) | ![Progreso](assets/screenshots/progreso.png) |
+
+## 🛠️ Tecnologías utilizadas
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/) (Expo Router)
+- TypeScript / JavaScript
+- Almacenamiento local en el dispositivo (Local Storage / AsyncStorage)
+
+## 🚀 Cómo ejecutar el proyecto localmente
+
+### Prerrequisitos
+
+- Tener instalado [Node.js](https://nodejs.org/) (versión LTS recomendada).
+- Tener instalada la app **Expo Go** en tu celular (disponible en Android e iOS) o un emulador configurado en tu PC.
+
+### Instalación
 
 1. Install dependencies
 
@@ -16,35 +45,16 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Abrir la aplicación:
+   En tu celular: Escaneá el código QR que aparece en la terminal usando la app Expo Go.
+   En emulador: Presioná a en la terminal para abrir en Android Studio o i para abrir en el simulador de iOS.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Próximas mejoras (Roadmap)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Implementación de base de datos en la nube para sincronizar el progreso entre dispositivos.
 
-## Get a fresh project
+- Autenticación de usuarios.
 
-When you're ready, run:
+- Exportar lista de faltantes y repetidas en formato texto para compartir por WhatsApp.
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Buscador avanzado por nombre de jugador y filtro por selección.

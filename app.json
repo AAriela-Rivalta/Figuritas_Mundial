@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "figus",
-    "slug": "figus",
+    "slug": "figuritas",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/balon-de-futbol.png",
     "scheme": "figus",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -23,7 +23,7 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/balon-de-futbol.png"
     },
     "plugins": [
       "expo-router",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2f923f40-bde1-4d83-8eab-5d24d5698bea"
+      }
+    },
+    "owner": "arielarivaltas-team"
   }
 }
